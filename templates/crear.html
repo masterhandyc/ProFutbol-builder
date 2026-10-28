@@ -1,0 +1,3 @@
+{% extends 'base.html' %}{% block title %}Crear partida — Pro Futbol{% endblock %}{% block content %}<section class="panel narrow">
+<a class="back" href="/">← Menú principal</a><p class="eyebrow">NUEVA PARTIDA</p><h1>{% if game == 'infiltrado' %}Infiltrado Futbolero{% else %}Subasta Futbolera{% endif %}</h1>
+<label for="name">Tu nombre</label><input id="name" maxlength="20" placeholder="Ej. Diego" autocomplete="name"><button class="button" id="create">Crear sala</button><p class="hint">Vas a ser el host de la partida.</p></section>{% endblock %}{% block scripts %}<script>window.PRO_CONFIG={game:{{ game|tojson }},page:'create'};</script>{% endblock %}

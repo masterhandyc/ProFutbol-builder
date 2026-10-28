@@ -1,0 +1,1 @@
+Agregá aquí las imágenes locales referenciadas en `data/futbolistas.json` (por ejemplo, `messi_2015.png`). Se usan rutas bajo `/static/img/futbolistas/`. El MVP muestra una tarjeta alternativa mientras no se agregue cada imagen.

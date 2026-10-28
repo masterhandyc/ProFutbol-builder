@@ -1,0 +1,8 @@
+{
+  "categorias": [
+    {"nombre": "Jugadores", "palabras": ["Lionel Messi", "Cristiano Ronaldo", "Diego Maradona", "Pelé", "Neymar", "Kylian Mbappé", "Luka Modrić", "Zinedine Zidane", "Ronaldinho", "Julián Álvarez"]},
+    {"nombre": "Clubes", "palabras": ["Boca Juniors", "River Plate", "Barcelona", "Real Madrid", "Manchester City", "Liverpool", "Inter", "Bayern Múnich", "Arsenal", "Paris Saint-Germain"]},
+    {"nombre": "Posiciones", "palabras": ["Arquero", "Defensor central", "Lateral", "Volante central", "Enganche", "Extremo", "Delantero centro", "Carrilero"]},
+    {"nombre": "Fútbol", "palabras": ["Fuera de juego", "Tiro de esquina", "Penal", "Pared", "Túnel", "Hat-trick", "Tiempo extra", "Barrida"]}
+  ]
+}

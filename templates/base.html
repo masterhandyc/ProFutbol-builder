@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Pro Futbol{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" defer></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+</head>
+<body><header class="topbar"><a class="brand" href="/">⚽ PRO FUTBOL</a><span>Juegos futboleros</span></header>
+<main>{% block content %}{% endblock %}</main><div id="toast" role="status" aria-live="polite"></div>{% block scripts %}{% endblock %}</body></html>
